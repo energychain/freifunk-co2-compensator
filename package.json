@@ -1,0 +1,33 @@
+{
+  "name": "freifunk-co2-compensator",
+  "version": "1.0.0",
+  "description": "Calculator service for carbon footprint of Freifunk Rhein Neckar nodes. Demo for Corrently IoT proof of sustainability in complex and dynamic infrastructure environements (CDIEs).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/freifunk-co2-compensator.git"
+  },
+  "bin": {
+    "freifunk-co2-compensator": "./index.js"
+  },
+  "keywords": [
+    "co2",
+    "footprint",
+    "freifunkt",
+    "corrently",
+    "stromdao"
+  ],
+  "author": "Thorsten Zoerner <thorsten.zoerner@stromdao.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/energychain/freifunk-co2-compensator/issues"
+  },
+  "homepage": "https://github.com/energychain/freifunk-co2-compensator#readme",
+  "dependencies": {
+    "node-persist": "^3.0.5",
+    "request": "^2.88.0"
+  }
+}
