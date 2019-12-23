@@ -3,7 +3,7 @@
 const http_request = require("request");
 const storage = require('node-persist');
 
-const nodeListURL = "https://www.freifunk-rhein-neckar.de/proxy.php"; // URL where we gett the current nodes status
+const nodeListURL = "https://map.ffrn.de/data/meshviewer.json"; // URL where we gett the current nodes status
 const ZIP = "69256"; // German Postleitzahl to use for localization of GrünstromIndex
 
 const co2_grey = 0.482;     // gramm co2 per Wh (standard)
